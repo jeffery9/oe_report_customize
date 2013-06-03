@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+	<data noupdate="0">
+
+		<report
+		auto="False"
+		id="account.account_invoices"
+		model="account.invoice"
+		name="account.invoice_customized"
+		rml="report_customized/report/account_print_invoice.rml"
+		string="Invoices bioERP"
+		attachment_use="True"
+		usage="default"
+		/>
+
+	</data>
+</openerp>
